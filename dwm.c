@@ -1781,7 +1781,7 @@ run(void)
 
 void
 runAutostart(void) {
-	system("cd ~/scripts; ./autostart.sh &");
+	system("cd /home/lee/scripts; sh ./autostart.sh &");
 }
 
 void
