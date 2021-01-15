@@ -36,7 +36,7 @@ static const unsigned int alphas[][3]    = {
 };
 
 /* tagging */
-static const char *tags[] = { "\uf120", "\uf121", "三", "\uf04b", "\ue62e", "六", "\ue62e", "\uf251", "\ue727", "\uf7ae", "\u266A", "P", "\uf684" };
+static const char *tags[] = { "\uf120", "\uf121", "\ue62e", "\uf04b",  "五", "六", "\uf251", "\ue727",  "九", "\uf7ae", "\u266A", "P", "\uf684" };
 static const Rule rules[] = {
     /* class                    instance    title               tags mask     isfloating   monitor */
     { "Google-chrome",          NULL,       NULL,               1 << 9,       0,           -1 },
