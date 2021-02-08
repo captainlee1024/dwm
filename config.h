@@ -83,6 +83,7 @@ static Key keys[] = {
     { MODKEY,              XK_l,            spawn,            SHCMD("blurlock") },
     { MODKEY,              XK_w,            spawn,            SHCMD("feh --randomize --bg-fill /home/lee/Pictures/wallpaper/*.png &") },
     { MODKEY,              XK_Return,       spawn,            SHCMD("st") },
+    //{ MODKEY,              XK_v,						spawn,            SHCMD("WeChat") },
     { MODKEY|ShiftMask,    XK_Up,           spawn,            SHCMD("sh /home/lee/scripts/set-vol.sh up &") },
     { MODKEY|ShiftMask,    XK_Down,         spawn,            SHCMD("sh /home/lee/scripts/set-vol.sh down &") },
     { MODKEY|ShiftMask,    XK_s,            spawn,            SHCMD("sh /home/lee/scripts/set-vol.sh toggle &") },
@@ -135,7 +136,7 @@ static Key keys[] = {
     TAGKEYS(XK_c, 9,  "google-chrome-stable", "google-chrome-stable")
     TAGKEYS(XK_m, 10, "source ~/.profile && netease-cloud-music", "pavucontrol")
     TAGKEYS(XK_p, 11, "postman", "postman")
-    TAGKEYS(XK_0, 12, "/opt/deepinwine/apps/Deepin-TIM/run.sh", "/opt/deepinwine/apps/Deepin-TIM/run.sh")
+    TAGKEYS(XK_0, 12, "/opt/apps/com.qq.tim.spark/files/run.sh", "/opt/apps/com.qq.tim.spark/files/run.sh")
 };
 
 /* button definitions */
